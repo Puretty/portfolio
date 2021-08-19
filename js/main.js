@@ -184,5 +184,18 @@
         });
     });
 
+	$(function() {
+        $("#demo04").click(function() {
+            $(".modal_background4").fadeIn();
+        });
+
+        $(document).mouseup(function(e) {
+            var container = $('.modal_background4');
+            if (container.has(e.target).length === 0) {
+                container.css('display', 'none');
+            }
+        });
+    });
+
 }());
 

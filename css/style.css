@@ -309,6 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-bg-dark {
   background: #2F3C4F;
   background: #FF9000;
+
 }
 
 .fh6co-bg-dark {
@@ -1319,6 +1320,7 @@ input[type="text"] {
   border-radius: 10px;
   width: 90%;
   height: 90%;
+  overflow: auto;
 }
 
 .modal_background2 {  
@@ -1332,6 +1334,16 @@ input[type="text"] {
 }
 
 .modal_background3 {  
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.modal_background4 {  
   position: fixed;
   top: 0;
   left: 0;
@@ -1364,7 +1376,5 @@ input[type="text"] {
   background-color: skyblue;
   color: white;
 }
-
-
 
 /*# sourceMappingURL=style.css.map */
