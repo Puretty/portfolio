@@ -1323,6 +1323,10 @@ input[type="text"] {
   overflow: auto;
 }
 
+.modal_box::-webkit-scrollbar{
+  display: none;
+}
+
 .modal_background2 {  
   position: fixed;
   top: 0;
